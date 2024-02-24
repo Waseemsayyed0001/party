@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>userinput</title>
+    <style>
+       * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+        }
+        body{
+            display: flex;
+            justify-content: center;
+           
+        }
+
+        div{
+            padding:20px;
+            border-radius:5px;
+            color: white;
+            font-size:25px;
+            width: 400px;
+            background: green;
+            color: white;
+            text-align: center;
+           
+
+        }
+
+       
+
+    </style>
+</head>
+
+
+
+<body>
+    <!-- <script>
+
+        let percentage = prompt("Enter your percentage : ");
+        if(percentage >= 80 && percentage <=100){
+            document.write("<div class=success>You are topper</div>")
+        }else if(percentage >=60 && percentage < 80){
+            document.write("<div class=success>you are average</div>")
+        }else if(percentage >=35 && percentage <60){
+            document.write("<div class=success>you are just pass</div>")
+        }else if(percentage >=0 && percentage <35){
+            document.write("<div class=failure>you are fail</div>")
+        }else{
+            document.write("<div class=failure>Please enter valid percentage</div>")
+        }
+
+    </script> -->
+    <script>
+     let age = prompt("what is your age ?");
+     let gift = prompt("are you bring gift?")
+     let cake = prompt("will you eat cake?")
+     let name = prompt ('what is your name?')
+     if (age<=17 && gift === "yes" || cake == 'no'){
+        document.write("entry");
+
+        let whatgift = prompt("what have you brought?")
+            if (whatgift == 'iphone') {
+                document.write('Wow!');
+                
+            }
+
+
+     }else if (name == 'waseem'|| name == 'sameer' ){
+        document.write("<div>best friend <br> entry</div>");
+     }
+     else{
+        document.write("No entry");
+     }
+      
+    </script>
+</body>
+</html
